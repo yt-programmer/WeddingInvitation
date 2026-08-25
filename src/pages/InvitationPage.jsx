@@ -331,7 +331,7 @@ const InvitationPage = () => {
                 </p>
 
                 <h2 className="mt-4 text-5xl uppercase text-[#765B54]">
-                  Guestbook
+                  Guest Wishes
                 </h2>
 
                 <FloralDivider />
@@ -518,7 +518,7 @@ const Calendar = () => {
           <div
             key={index}
             className={`flex aspect-square items-center justify-center text-xs ${
-              date === 11
+              date === 25
                 ? "rounded-full bg-[#B98D70] text-white"
                 : "text-[#8F8079]"
             }`}
