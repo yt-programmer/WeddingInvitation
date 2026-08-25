@@ -226,7 +226,7 @@ const InvitationPage = () => {
 
               <FloralDivider />
 
-              <div className="mt-10 font-num font-bold grid grid-cols-4 gap-2">
+              <div className="mt-10  font-bold grid grid-cols-4 gap-2">
                 <Countdown value={countdown.days} label="DAYS" />
                 <Countdown value={countdown.hours} label="HRS" />
                 <Countdown value={countdown.minutes} label="MIN" />
