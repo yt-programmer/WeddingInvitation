@@ -79,7 +79,7 @@ const InvitationPage = () => {
         preload="auto"
       />
       {open ? (
-        <div className="min-h-screen overflow-hidden bg-[#FAF7F2] font-serif text-[#795548]">
+        <div className="min-h-screen font-body overflow-hidden bg-[#FAF7F2]  text-[#795548]">
           <motion.button
             onClick={toggleMusic}
             animate={
@@ -163,7 +163,7 @@ const InvitationPage = () => {
 
               <h1
                 dir="rtl"
-                className="mt-5 font-['Scheherazade_New'] text-5xl font-normal text-[#765B54]"
+                className="mt-5 font-display  text-5xl font-normal text-[#765B54]"
               >
                 فرح و وليد
               </h1>
@@ -197,17 +197,12 @@ const InvitationPage = () => {
                 </div>
               </div>
 
-              <p className="mt-2 text-2xl text-[#765B54]"> فرح و وليد</p>
+              <p className="mt-2 text-2xl font-display text-[#765B54]">
+                {" "}
+                فرح و وليد
+              </p>
             </motion.div>
           </section>
-
-          <EventSection
-            eyebrow="BRIDE'S HENNA NIGHT"
-            title="حنة العروسة"
-            location=" منزل العروسه "
-            date="2026-12-23"
-            time="06:00 PM"
-          />
 
           <section className="relative px-5 py-28">
             <Flower
@@ -231,7 +226,7 @@ const InvitationPage = () => {
 
               <FloralDivider />
 
-              <div className="mt-10 grid grid-cols-4 gap-2">
+              <div className="mt-10 font-num font-bold grid grid-cols-4 gap-2">
                 <Countdown value={countdown.days} label="DAYS" />
                 <Countdown value={countdown.hours} label="HRS" />
                 <Countdown value={countdown.minutes} label="MIN" />
@@ -257,6 +252,13 @@ const InvitationPage = () => {
               </div>
             </motion.div>
           </section>
+          <EventSection
+            eyebrow="BRIDE'S HENNA NIGHT"
+            title="حنة العروسة"
+            location=" منزل العروسه "
+            date="2026-12-23"
+            time="06:00 PM"
+          />
 
           <section className="relative px-5 py-28">
             <Flower
@@ -378,7 +380,7 @@ const InvitationPage = () => {
           <footer className="bg-[#D6B36A] px-5 py-16 text-center text-[#5F4A43]">
             <Heart size={22} fill="currentColor" className="mx-auto mb-5" />
 
-            <h2 className="text-3xl font-['Scheherazade_New']"> فرح و وليد</h2>
+            <h2 className="text-3xl font-display"> فرح و وليد</h2>
 
             <p className="mt-3 text-sm opacity-80">
               With love, we begin our forever.
@@ -418,13 +420,13 @@ const EventSection = ({ eyebrow, title, location, date, time, image }) => {
       >
         <p className="text-[10px] tracking-[0.4em] text-[#A38B82]">{eyebrow}</p>
 
-        <h2 dir="rtl" className="mt-5 text-5xl text-[#8C7068]">
+        <h2 dir="rtl" className="mt-5 font-display text-5xl text-[#8C7068]">
           {title}
         </h2>
 
         <FloralDivider />
 
-        <p dir="rtl" className="mt-7 text-xl">
+        <p dir="rtl" className="mt-7 font-display text-xl">
           {location}
         </p>
 
@@ -505,7 +507,7 @@ const Calendar = () => {
 
   return (
     <div className="mt-7">
-      <div className="grid grid-cols-7 border-b border-[#E0D6D0] pb-3">
+      <div className="grid  grid-cols-7 border-b border-[#E0D6D0] pb-3">
         {days.map((day) => (
           <span key={day} className="text-center text-[10px] text-[#9D8B83]">
             {day}

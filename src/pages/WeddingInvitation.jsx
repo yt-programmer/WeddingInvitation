@@ -8,7 +8,7 @@ const WeddingInvitation = ({ toggleMusic, setOpen }) => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF7F2] px-4 py-8 font-serif text-[#795548]">
+    <div className="min-h-screen bg-[#FAF7F2] px-4 py-8 font-body text-[#795548]">
       <motion.div
         initial={{ opacity: 0, y: 40, scale: 0.97 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -18,10 +18,6 @@ const WeddingInvitation = ({ toggleMusic, setOpen }) => {
         }}
         className="relative mx-auto min-h-[720px] max-w-md overflow-hidden rounded-sm bg-[#faf8f5] px-6 py-10 shadow-2xl"
       >
-        {/* ================================= */}
-        {/* OUTER BORDERS */}
-        {/* ================================= */}
-
         <motion.div
           animate={{
             opacity: [0.4, 0.9, 0.4],
@@ -233,7 +229,7 @@ const WeddingInvitation = ({ toggleMusic, setOpen }) => {
               duration: 0.7,
             }}
             dir="rtl"
-            className="mb-2 text-xl font-medium text-[#85665B]"
+            className="mb-2 text-xl font-medium font-display text-[#85665B]"
           >
             دعوة زفاف
           </motion.p>
@@ -254,7 +250,7 @@ const WeddingInvitation = ({ toggleMusic, setOpen }) => {
               duration: 0.8,
             }}
             dir="rtl"
-            className="font-['Scheherazade_New'] text-5xl font-normal text-[#765B54]"
+            className="font-display text-5xl font-normal text-[#765B54]"
           >
             فرح و وليد
           </motion.h1>
