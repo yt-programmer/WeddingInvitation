@@ -385,7 +385,7 @@ const InvitationPage = () => {
               With love, we begin our forever.
             </p>
 
-            <p className="mt-8 text-xs opacity-70">December 19, 2026</p>
+            <p className="mt-8 text-xs opacity-70">December 25, 2026</p>
           </footer>
         </div>
       ) : (
