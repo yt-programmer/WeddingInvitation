@@ -285,7 +285,7 @@ const InvitationPage = () => {
               <div className="mt-8 overflow-hidden border border-[#E5DCD5] bg-[#FAF8F5] p-2">
                 <iframe
                   title="Nile View"
-                  src="https://www.google.com/maps?q=Imperial%2C+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%B3%D9%8A%D8%A9+%D9%84%D9%84%D9%82%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+%D8%B1%D9%82%D9%85+4&output=embed"
+                  src"https://www.google.com/maps?q=30.0742011,31.3571641&output=embed"
                   className="h-[350px] w-full"
                   loading="lazy"
                 />
