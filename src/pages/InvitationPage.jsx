@@ -256,7 +256,7 @@ const InvitationPage = () => {
             eyebrow="BRIDE'S HENNA NIGHT"
             title="حنة العروسة"
             location=" منزل العروسه "
-            date="2026-12-23"
+            date="2026-12-19"
             time="06:00 PM"
           />
 
@@ -285,19 +285,18 @@ const InvitationPage = () => {
               <div className="mt-8 overflow-hidden border border-[#E5DCD5] bg-[#FAF8F5] p-2">
                 <iframe
                   title="Nile View"
-                  src="https://www.google.com/maps?q=30.073015,31.3516324&z=15&output=embed"
+                  src="https://www.google.com/maps?q=7Psn8jPrkLGsqAZUA&output=embed"
                   className="h-[350px] w-full"
                   loading="lazy"
                 />
 
                 <p className="mt-3 text-sm text-[#795548]">
-                  Breeze Venue Armed Forces Equestrian Club – Gate 4 Nasr City,
-                  Cairo
+                  Imperial, ‎📍 نادي الفروسية للقوات المسلحة بوابة رقم 4 – أمام باركينج, El-Nasr Rd, An Nadi Al Ahli, Nasr City
                 </p>
               </div>
 
               <a
-                href="https://maps.app.goo.gl/gvmZpUjygqVYkYRi6"
+                href="https://maps.app.goo.gl/7Psn8jPrkLGsqAZUA"
                 target="_blank"
                 rel="noreferrer"
                 className="mx-auto mt-5 inline-flex items-center gap-2 border border-[#D6B36A] px-6 py-3 text-sm text-[#795548] transition hover:bg-[#D6B36A]"
@@ -386,7 +385,7 @@ const InvitationPage = () => {
               With love, we begin our forever.
             </p>
 
-            <p className="mt-8 text-xs opacity-70">December 25, 2026</p>
+            <p className="mt-8 text-xs opacity-70">December 19, 2026</p>
           </footer>
         </div>
       ) : (
